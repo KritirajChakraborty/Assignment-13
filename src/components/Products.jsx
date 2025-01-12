@@ -32,8 +32,9 @@ const Product = ({ hotels, setCurrentIndex = () => {} }) => {
         alignItems: "center",
         justifyContent: "center",
         gap: "20px",
-        margin: "10px 0",
+        marginTop: "10px",
         padding: "0 5px",
+        marginBottom: "100px",
       }}
     >
       {hotels.map((item, index) => (

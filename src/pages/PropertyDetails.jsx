@@ -14,7 +14,6 @@ const hotelDetails = () => {
 
   const data = [...hotelData];
   const params = useParams();
-  console.log(params.id);
   const id = Number(params.id);
   const hotel = data.find((_, index) => index == id);
 
@@ -35,7 +34,6 @@ const hotelDetails = () => {
 
   // Handle touch move
   const handleTouchMove = (e) => {
-    console.log("Touch Start:", e.touches.length, e.touches);
     if (!isTwoFingerSwipe.current || e.touches.length !== 2) return;
 
     const x1 = e.touches[0].clientX;
@@ -43,16 +41,13 @@ const hotelDetails = () => {
 
     // Detect swipe direction based on the change in the first finger's X position
     const swipeDistance = Math.abs(x1 - touchStartRef.current.x1);
-    console.log("Swipe Distance:", swipeDistance);
 
     if (swipeDistance > 50) {
       if (x1 < touchStartRef.current.x1) {
         // Swipe left
-        console.log("Swiped Left");
         nextImage();
       } else {
         // Swipe right
-        console.log("Swiped Right");
         prevImage();
       }
       isTwoFingerSwipe.current = false; // Prevent multiple triggers in one gesture

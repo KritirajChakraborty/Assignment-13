@@ -9,8 +9,9 @@ const mapContainerStyle = {
 };
 
 const GoogleMaps = ({ center }) => {
+  const apiKey = import.meta.env.VITE_GOOGLEMAPS_API_KEY;
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: import.meta.env.VITE_GOOGLEMAPS_API_KEY,
+    googleMapsApiKey: apiKey,
     libraries,
   });
 

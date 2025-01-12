@@ -1,12 +1,9 @@
 import React, { createContext, useContext, useState } from "react";
 
-// Create WishlistContext
 const WishlistContext = createContext();
 
-// WishlistProvider to wrap your app
 export const WishlistProvider = ({ children }) => {
   const [wishlist, setWishlist] = useState([]);
-  console.log(wishlist);
 
   // Function to add/remove a hotel from the wishlist
   const toggleWishlist = (hotel) => {
@@ -22,7 +19,6 @@ export const WishlistProvider = ({ children }) => {
     });
   };
 
-  // Function to check if a hotel is wishlisted
   const isHotelWishlisted = (hotelId) =>
     wishlist.some((item) => item.id === hotelId);
 
@@ -35,7 +31,6 @@ export const WishlistProvider = ({ children }) => {
   );
 };
 
-// Custom hook to use the WishlistContext
 export const useWishlist = () => {
   return useContext(WishlistContext);
 };

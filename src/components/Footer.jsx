@@ -34,7 +34,7 @@ const Footer = () => {
           </NavLink>
         </li>
         <li className="navbar__list-items">
-          <NavLink to="/maps" className={`navlink ${getLinkClass("/maps")}`}>
+          <NavLink to="/map" className={`navlink ${getLinkClass("/maps")}`}>
             <div>
               <img src={Location} alt="Maps" />
               <span>Maps</span>

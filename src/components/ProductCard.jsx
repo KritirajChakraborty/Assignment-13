@@ -67,7 +67,7 @@ const ProductCard = ({ property, className, index }) => {
           onTouchEnd={handleTouchEnd}
         >
           <Link
-            to={`/${index}`}
+            to={`/products/${index}`}
             key={index}
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -116,7 +116,7 @@ const ProductCard = ({ property, className, index }) => {
       </div>
 
       <Link
-        to={`/${index}`}
+        to={`/products/${index}`}
         key={index}
         style={{ textDecoration: "none", color: "inherit" }}
       >

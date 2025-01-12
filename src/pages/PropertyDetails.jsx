@@ -4,18 +4,19 @@ import "./PropertyDetails.css";
 import { useRef, useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import GoogleMaps from "../components/GoogleMaps";
 
 const hotelDetails = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0); // Track the current image index
-  const touchStartRef = useRef({}); // Store touch start positions
-  const isTwoFingerSwipe = useRef(false); // Track if the gesture involves two fingers
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const touchStartRef = useRef({});
+  const isTwoFingerSwipe = useRef(false);
+  const [selectedType, setSelectedType] = useState("House");
+
   const data = [...hotelData];
   const params = useParams();
   console.log(params.id);
   const id = Number(params.id);
   const hotel = data.find((_, index) => index == id);
-  const shortAddress = hotel.location;
-  console.log(shortAddress);
 
   // Handle touch start
   const handleTouchStart = (e) => {
@@ -121,6 +122,39 @@ const hotelDetails = () => {
             </span>
             {hotel.address}
           </div>
+        </div>
+      </div>
+      <GoogleMaps center={hotel.location} />
+      <div className="property-amenities">
+        {/* Amenities Section */}
+        <div className="property-amenities__nearby">
+          <span className="property-amenities__item">2 Hospital</span>
+          <span className="property-amenities__item">4 Gas stations</span>
+          <span className="property-amenities__item">2 Schools</span>
+        </div>
+
+        <h3 className="property-amenities__title">Property Amenities</h3>
+        <div className="property-amenities__types">
+          <button
+            className={`property-amenities__type ${
+              selectedType === "House"
+                ? "property-amenities__type--selected"
+                : ""
+            }`}
+            onClick={() => setSelectedType("House")}
+          >
+            House
+          </button>
+          <button
+            className={`property-amenities__type ${
+              selectedType === "Apartment"
+                ? "property-amenities__type--selected"
+                : ""
+            }`}
+            onClick={() => setSelectedType("Apartment")}
+          >
+            Apartment
+          </button>
         </div>
       </div>
     </div>

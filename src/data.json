@@ -7,7 +7,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -23,7 +23,7 @@
     "stars": 4.2,
     "date": "Mar 9 - 14",
     "comments": "Highest Rated",
-    "location": "39.1911,-106.8175",
+    "location": [39.1911, -106.8175],
     "images": [
       "/building4.png",
       "/building1.png",
@@ -38,7 +38,7 @@
     "views": 3492,
     "stars": 2.3,
     "date": "Dec 25 - 31",
-    "location": "40.7508,-73.9973",
+    "location": [40.7508, -73.9973],
     "images": [
       "/building3.png",
       "/building4.png",
@@ -54,7 +54,7 @@
     "stars": 5,
     "date": "Jan 12 - 14",
     "comments": "Best in Class",
-    "location": "48.8566,2.3522",
+    "location": [48.8566, 2.3522],
     "images": [
       "/building1.png",
       "/building4.png",
@@ -70,7 +70,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -86,7 +86,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -102,7 +102,7 @@
     "stars": 4.2,
     "date": "Mar 9 - 14",
     "comments": "Highest Rated",
-    "location": "39.1911,-106.8175",
+    "location": [39.1911, -106.8175],
     "images": [
       "/building4.png",
       "/building1.png",
@@ -117,7 +117,7 @@
     "views": 3492,
     "stars": 2.3,
     "date": "Dec 25 - 31",
-    "location": "40.7508,-73.9973",
+    "location": [40.7508, -73.9973],
     "images": [
       "/building3.png",
       "/building4.png",
@@ -133,7 +133,7 @@
     "stars": 5,
     "date": "Jan 12 - 14",
     "comments": "Best in Class",
-    "location": "48.8566,2.3522",
+    "location": [48.8566, 2.3522],
     "images": [
       "/building1.png",
       "/building4.png",
@@ -149,7 +149,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -165,7 +165,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -181,7 +181,7 @@
     "stars": 4.2,
     "date": "Mar 9 - 14",
     "comments": "Highest Rated",
-    "location": "39.1911,-106.8175",
+    "location": [39.1911, -106.8175],
     "images": [
       "/building4.png",
       "/building1.png",
@@ -196,7 +196,7 @@
     "views": 3492,
     "stars": 2.3,
     "date": "Dec 25 - 31",
-    "location": "40.7508,-73.9973",
+    "location": [40.7508, -73.9973],
     "images": [
       "/building3.png",
       "/building4.png",
@@ -212,7 +212,7 @@
     "stars": 5,
     "date": "Jan 12 - 14",
     "comments": "Best in Class",
-    "location": "48.8566,2.3522",
+    "location": [48.8566, 2.3522],
     "images": [
       "/building1.png",
       "/building4.png",
@@ -228,7 +228,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -244,7 +244,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -260,7 +260,7 @@
     "stars": 4.2,
     "date": "Mar 9 - 14",
     "comments": "Highest Rated",
-    "location": "39.1911,-106.8175",
+    "location": [39.1911, -106.8175],
     "images": [
       "/building4.png",
       "/building1.png",
@@ -275,7 +275,7 @@
     "views": 3492,
     "stars": 2.3,
     "date": "Dec 25 - 31",
-    "location": "40.7508,-73.9973",
+    "location": [40.7508, -73.9973],
     "images": [
       "/building3.png",
       "/building4.png",
@@ -291,7 +291,7 @@
     "stars": 5,
     "date": "Jan 12 - 14",
     "comments": "Best in Class",
-    "location": "48.8566,2.3522",
+    "location": [48.8566, 2.3522],
     "images": [
       "/building1.png",
       "/building4.png",
@@ -307,7 +307,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -323,7 +323,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -339,7 +339,7 @@
     "stars": 4.2,
     "date": "Mar 9 - 14",
     "comments": "Highest Rated",
-    "location": "39.1911,-106.8175",
+    "location": [39.1911, -106.8175],
     "images": [
       "/building4.png",
       "/building1.png",
@@ -354,7 +354,7 @@
     "views": 3492,
     "stars": 2.3,
     "date": "Dec 25 - 31",
-    "location": "40.7508,-73.9973",
+    "location": [40.7508, -73.9973],
     "images": [
       "/building3.png",
       "/building4.png",
@@ -370,7 +370,7 @@
     "stars": 5,
     "date": "Jan 12 - 14",
     "comments": "Best in Class",
-    "location": "48.8566,2.3522",
+    "location": [48.8566, 2.3522],
     "images": [
       "/building1.png",
       "/building4.png",
@@ -386,7 +386,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -402,7 +402,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",
@@ -418,7 +418,7 @@
     "stars": 4.2,
     "date": "Mar 9 - 14",
     "comments": "Highest Rated",
-    "location": "39.1911,-106.8175",
+    "location": [39.1911, -106.8175],
     "images": [
       "/building4.png",
       "/building1.png",
@@ -433,7 +433,7 @@
     "views": 3492,
     "stars": 2.3,
     "date": "Dec 25 - 31",
-    "location": "40.7508,-73.9973",
+    "location": [40.7508, -73.9973],
     "images": [
       "/building3.png",
       "/building4.png",
@@ -449,7 +449,7 @@
     "stars": 5,
     "date": "Jan 12 - 14",
     "comments": "Best in Class",
-    "location": "48.8566,2.3522",
+    "location": [48.8566, 2.3522],
     "images": [
       "/building1.png",
       "/building4.png",
@@ -465,7 +465,7 @@
     "stars": 3.15,
     "date": "Apr 5 - 10",
     "comments": "Most Liked",
-    "location": "25.7825,-80.1324",
+    "location": [25.7825, -80.1324],
     "images": [
       "/building1.png",
       "/building2.png",

@@ -1,0 +1,31 @@
+.under-construction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.under-construction__content {
+  max-width: 600px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.under-construction__content h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.under-construction__content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.under-construction__image {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}

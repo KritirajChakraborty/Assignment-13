@@ -1,0 +1,35 @@
+.navbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: #fff;
+  height: 48px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar__list li {
+  list-style: none;
+}
+
+.navbar__list-items div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__list-items div > span {
+  font-weight: 300;
+}
+.navlink {
+  text-decoration: none;
+  color: black;
+}
+
+.navlink.active,
+.navlink.active span {
+  color: orange;
+  font-weight: 500;
+}

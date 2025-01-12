@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  background-color: #fff;
+
+  height: 48px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header__logo img {
+  height: 24px;
+}
+
+.header__logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.header__status-icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header__icon {
+  height: 12px;
+}

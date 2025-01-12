@@ -1,0 +1,476 @@
+[
+  {
+    "id": 1,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mountain Peaks Lodge",
+    "address": "456 Mountain Rd, Aspen, CO 81611",
+    "views": 2458,
+    "stars": 4.2,
+    "date": "Mar 9 - 14",
+    "comments": "Highest Rated",
+    "location": "39.1911,-106.8175",
+    "images": [
+      "/building4.png",
+      "/building1.png",
+      "/building2.png",
+      "/building3.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "City Center Hotel",
+    "address": "789 Downtown St, New York, NY 10001",
+    "views": 3492,
+    "stars": 2.3,
+    "date": "Dec 25 - 31",
+    "location": "40.7508,-73.9973",
+    "images": [
+      "/building3.png",
+      "/building4.png",
+      "/building1.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Luxury Grand Palace",
+    "address": "321 Royal Blvd, Paris, France 75008",
+    "views": 4150,
+    "stars": 5,
+    "date": "Jan 12 - 14",
+    "comments": "Best in Class",
+    "location": "48.8566,2.3522",
+    "images": [
+      "/building1.png",
+      "/building4.png",
+      "/building3.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mountain Peaks Lodge",
+    "address": "456 Mountain Rd, Aspen, CO 81611",
+    "views": 2458,
+    "stars": 4.2,
+    "date": "Mar 9 - 14",
+    "comments": "Highest Rated",
+    "location": "39.1911,-106.8175",
+    "images": [
+      "/building4.png",
+      "/building1.png",
+      "/building2.png",
+      "/building3.png"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "City Center Hotel",
+    "address": "789 Downtown St, New York, NY 10001",
+    "views": 3492,
+    "stars": 2.3,
+    "date": "Dec 25 - 31",
+    "location": "40.7508,-73.9973",
+    "images": [
+      "/building3.png",
+      "/building4.png",
+      "/building1.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Luxury Grand Palace",
+    "address": "321 Royal Blvd, Paris, France 75008",
+    "views": 4150,
+    "stars": 5,
+    "date": "Jan 12 - 14",
+    "comments": "Best in Class",
+    "location": "48.8566,2.3522",
+    "images": [
+      "/building1.png",
+      "/building4.png",
+      "/building3.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Mountain Peaks Lodge",
+    "address": "456 Mountain Rd, Aspen, CO 81611",
+    "views": 2458,
+    "stars": 4.2,
+    "date": "Mar 9 - 14",
+    "comments": "Highest Rated",
+    "location": "39.1911,-106.8175",
+    "images": [
+      "/building4.png",
+      "/building1.png",
+      "/building2.png",
+      "/building3.png"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "City Center Hotel",
+    "address": "789 Downtown St, New York, NY 10001",
+    "views": 3492,
+    "stars": 2.3,
+    "date": "Dec 25 - 31",
+    "location": "40.7508,-73.9973",
+    "images": [
+      "/building3.png",
+      "/building4.png",
+      "/building1.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Luxury Grand Palace",
+    "address": "321 Royal Blvd, Paris, France 75008",
+    "views": 4150,
+    "stars": 5,
+    "date": "Jan 12 - 14",
+    "comments": "Best in Class",
+    "location": "48.8566,2.3522",
+    "images": [
+      "/building1.png",
+      "/building4.png",
+      "/building3.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Mountain Peaks Lodge",
+    "address": "456 Mountain Rd, Aspen, CO 81611",
+    "views": 2458,
+    "stars": 4.2,
+    "date": "Mar 9 - 14",
+    "comments": "Highest Rated",
+    "location": "39.1911,-106.8175",
+    "images": [
+      "/building4.png",
+      "/building1.png",
+      "/building2.png",
+      "/building3.png"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "City Center Hotel",
+    "address": "789 Downtown St, New York, NY 10001",
+    "views": 3492,
+    "stars": 2.3,
+    "date": "Dec 25 - 31",
+    "location": "40.7508,-73.9973",
+    "images": [
+      "/building3.png",
+      "/building4.png",
+      "/building1.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Luxury Grand Palace",
+    "address": "321 Royal Blvd, Paris, France 75008",
+    "views": 4150,
+    "stars": 5,
+    "date": "Jan 12 - 14",
+    "comments": "Best in Class",
+    "location": "48.8566,2.3522",
+    "images": [
+      "/building1.png",
+      "/building4.png",
+      "/building3.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Mountain Peaks Lodge",
+    "address": "456 Mountain Rd, Aspen, CO 81611",
+    "views": 2458,
+    "stars": 4.2,
+    "date": "Mar 9 - 14",
+    "comments": "Highest Rated",
+    "location": "39.1911,-106.8175",
+    "images": [
+      "/building4.png",
+      "/building1.png",
+      "/building2.png",
+      "/building3.png"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "City Center Hotel",
+    "address": "789 Downtown St, New York, NY 10001",
+    "views": 3492,
+    "stars": 2.3,
+    "date": "Dec 25 - 31",
+    "location": "40.7508,-73.9973",
+    "images": [
+      "/building3.png",
+      "/building4.png",
+      "/building1.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Luxury Grand Palace",
+    "address": "321 Royal Blvd, Paris, France 75008",
+    "views": 4150,
+    "stars": 5,
+    "date": "Jan 12 - 14",
+    "comments": "Best in Class",
+    "location": "48.8566,2.3522",
+    "images": [
+      "/building1.png",
+      "/building4.png",
+      "/building3.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Mountain Peaks Lodge",
+    "address": "456 Mountain Rd, Aspen, CO 81611",
+    "views": 2458,
+    "stars": 4.2,
+    "date": "Mar 9 - 14",
+    "comments": "Highest Rated",
+    "location": "39.1911,-106.8175",
+    "images": [
+      "/building4.png",
+      "/building1.png",
+      "/building2.png",
+      "/building3.png"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "City Center Hotel",
+    "address": "789 Downtown St, New York, NY 10001",
+    "views": 3492,
+    "stars": 2.3,
+    "date": "Dec 25 - 31",
+    "location": "40.7508,-73.9973",
+    "images": [
+      "/building3.png",
+      "/building4.png",
+      "/building1.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Luxury Grand Palace",
+    "address": "321 Royal Blvd, Paris, France 75008",
+    "views": 4150,
+    "stars": 5,
+    "date": "Jan 12 - 14",
+    "comments": "Best in Class",
+    "location": "48.8566,2.3522",
+    "images": [
+      "/building1.png",
+      "/building4.png",
+      "/building3.png",
+      "/building2.png"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Oceanview Resort",
+    "address": "123 Ocean Drive, Miami, FL 33139",
+    "views": 1285,
+    "stars": 3.15,
+    "date": "Apr 5 - 10",
+    "comments": "Most Liked",
+    "location": "25.7825,-80.1324",
+    "images": [
+      "/building1.png",
+      "/building2.png",
+      "/building3.png",
+      "/building4.png"
+    ]
+  }
+]

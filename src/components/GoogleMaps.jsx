@@ -31,6 +31,11 @@ const GoogleMaps = ({ center }) => {
         mapContainerStyle={mapContainerStyle}
         zoom={10}
         center={target}
+        options={{
+          gestureHandling: "cooperative",
+          fullscreenControl: false,
+          mapTypeControl: false,
+        }}
       >
         <Marker position={target} />
       </GoogleMap>

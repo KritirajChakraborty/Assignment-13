@@ -1,15 +1,13 @@
 import { useParams } from "react-router-dom";
 import hotelData from "../data.json";
 import "./PropertyDetails.css";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import GoogleMaps from "../components/GoogleMaps";
+import ImageSlider from "../components/ImageSlider";
 
 const hotelDetails = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const touchStartRef = useRef({});
-  const isTwoFingerSwipe = useRef(false);
   const [selectedType, setSelectedType] = useState("House");
 
   const data = [...hotelData];
@@ -17,84 +15,18 @@ const hotelDetails = () => {
   const id = Number(params.id);
   const hotel = data.find((_, index) => index == id);
 
-  // Handle touch start
-  const handleTouchStart = (e) => {
-    if (e.touches.length === 2) {
-      isTwoFingerSwipe.current = true;
-      touchStartRef.current = {
-        x1: e.touches[0].clientX,
-        y1: e.touches[0].clientY,
-        x2: e.touches[1].clientX,
-        y2: e.touches[1].clientY,
-      };
-    } else {
-      isTwoFingerSwipe.current = false;
-    }
-  };
-
-  // Handle touch move
-  const handleTouchMove = (e) => {
-    if (!isTwoFingerSwipe.current || e.touches.length !== 2) return;
-
-    const x1 = e.touches[0].clientX;
-    const x2 = e.touches[1].clientX;
-
-    // Detect swipe direction based on the change in the first finger's X position
-    const swipeDistance = Math.abs(x1 - touchStartRef.current.x1);
-
-    if (swipeDistance > 50) {
-      if (x1 < touchStartRef.current.x1) {
-        // Swipe left
-        nextImage();
-      } else {
-        // Swipe right
-        prevImage();
-      }
-      isTwoFingerSwipe.current = false; // Prevent multiple triggers in one gesture
-    }
-  };
-
-  const handleTouchEnd = () => {
-    // Reset states after touch ends
-    isTwoFingerSwipe.current = false;
-    touchStartRef.current = {};
-  };
-
-  // Go to the next image
-  const nextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  // Go to the previous image
-  const prevImage = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
   return (
     <div className="hotel-details__container">
-      <div className="hotel-card__image-container">
-        <div
-          ref={touchStartRef}
-          className="hotel-card__slider"
-          onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove}
-          onTouchEnd={handleTouchEnd}
-        >
-          {hotel.images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`${hotel.name} - Image ${index + 1}`}
-              className={`hotel-card__image ${
-                currentImageIndex === index ? "hotel-card__image--active" : ""
-              }`}
-              draggable="false"
-            />
-          ))}
-        </div>
+      <div
+        style={{
+          height: "600px",
+          display: "flex",
+          margin: "0 auto",
+        }}
+      >
+        <ImageSlider hotel={hotel} />
       </div>
+
       <div className="hotel-details">
         <div className="hotel-details__header-container">
           <div className="hotel-details__header">
@@ -120,30 +52,28 @@ const hotelDetails = () => {
         </div>
       </div>
       <GoogleMaps center={hotel.location} />
-      <div className="property-amenities">
+      <div className="hotel-amenities">
         {/* Amenities Section */}
-        <div className="property-amenities__nearby">
-          <span className="property-amenities__item">2 Hospital</span>
-          <span className="property-amenities__item">4 Gas stations</span>
-          <span className="property-amenities__item">2 Schools</span>
+        <div className="hotel-amenities__nearby">
+          <span className="hotel-amenities__item">2 Hospital</span>
+          <span className="hotel-amenities__item">4 Gas stations</span>
+          <span className="hotel-amenities__item">2 Schools</span>
         </div>
 
-        <h3 className="property-amenities__title">Property Amenities</h3>
-        <div className="property-amenities__types">
+        <h3 className="hotel-amenities__title">Property Amenities</h3>
+        <div className="hotel-amenities__types">
           <button
-            className={`property-amenities__type ${
-              selectedType === "House"
-                ? "property-amenities__type--selected"
-                : ""
+            className={`hotel-amenities__type ${
+              selectedType === "House" ? "hotel-amenities__type--selected" : ""
             }`}
             onClick={() => setSelectedType("House")}
           >
             House
           </button>
           <button
-            className={`property-amenities__type ${
+            className={`hotel-amenities__type ${
               selectedType === "Apartment"
-                ? "property-amenities__type--selected"
+                ? "hotel-amenities__type--selected"
                 : ""
             }`}
             onClick={() => setSelectedType("Apartment")}

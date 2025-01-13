@@ -1,0 +1,123 @@
+.hotel-card__image-container {
+  position: relative;
+  height: var(--slider-height, 100%);
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.hotel-card__slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hotel-card__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hotel-card__image--active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.hotel-card__dots {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4px;
+  z-index: 2;
+}
+
+.hotel-card__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hotel-card__dot--active {
+  background-color: #fff;
+  transform: scale(1.25);
+}
+
+.hotel-card__nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.hotel-card__nav-button:hover {
+  background-color: #fff;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.hotel-card__nav-button--prev {
+  left: 8px;
+}
+
+.hotel-card__nav-button--next {
+  right: 8px;
+}
+
+.hotel-card__wishlist {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.hotel-card__wishlist:hover {
+  background-color: #fff;
+  transform: scale(1.1);
+}
+
+.hotel-card__wishlist-icon {
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+}
+
+.hotel-card__wishlist--active .hotel-card__wishlist-icon {
+  fill: #ef4444;
+  stroke: #ef4444;
+}
+.hotel-card__tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  z-index: 2;
+}

@@ -21,7 +21,8 @@ const hotelDetails = () => {
         style={{
           height: "600px",
           display: "flex",
-          margin: "0 auto",
+          justifyContent: "center",
+          width: "100%",
         }}
       >
         <ImageSlider hotel={hotel} />

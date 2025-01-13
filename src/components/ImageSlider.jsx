@@ -51,7 +51,11 @@ const ImageSlider = ({ hotel }) => {
   const isHomePage = location.pathname === "/";
   return (
     <div
-      style={{ "--slider-height": isHomePage ? "58%" : "100%" }}
+      style={{
+        "--slider-height": isHomePage ? "59%" : "100%",
+        "--border-radius": isHomePage ? "0px" : "15px",
+        "--top-border-radius": isHomePage ? "8px" : "10px",
+      }}
       className="hotel-card__image-container"
     >
       <div
@@ -87,7 +91,10 @@ const ImageSlider = ({ hotel }) => {
       </div>
 
       <button
-        onClick={() => toggleWishlist(hotel)}
+        onClick={(event) => {
+          event.preventDefault();
+          toggleWishlist(hotel);
+        }}
         className={`hotel-card__wishlist ${
           isHotelWishlisted(hotel.id) ? "hotel-card__wishlist--active" : ""
         }`}
